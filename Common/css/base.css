@@ -1,0 +1,12 @@
+@charset "utf-8";
+*{margin:0px;padding:0px;}
+body{background:#FFFFFF;}
+/*清除浮动*/
+.clearfix:after{content:".";display:block;height:0px;clear:both;visibility:hidden;}
+.clearfix{height:1%;}
+/*常用标签*/
+a{text-decoraction:none;}
+a:link{color:#000000;}
+a:hover{color:#FF0000}
+a:visited{color:#FF0000;}
+a:active{color:#00BBBB;}
