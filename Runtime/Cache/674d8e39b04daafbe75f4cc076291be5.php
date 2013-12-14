@@ -11,14 +11,51 @@
   <meta name="description" content="">
   <meta name="author" content="Administrator">
 
-  <meta name="viewport" content="width=device-width; initial-scale=1.0">
-
+  <link rel="stylesheet" type="text/css" href="<?php echo ($root_path); ?>Common/css/base.css" />
+  <link rel="stylesheet" type="text/css" href="<?php echo ($root_path); ?>Common/css/common.css" />
   <link rel="stylesheet" type="text/css" href="<?php echo ($root_path); ?>Common/css/index/index.css" /> 
+  
 </head>
 
 <body>
 	<div class="header">
-	<h1>hello</h1>
+	<div class="header_nav_menu">
+	 <div class="channels">
+	  <div class="nav_item">
+	   <a class="nav_tag" href="">首页</a>
+	  </div>
+	 
+	  <div class="nav_item">
+	   <a class="nav_tag" href="">资讯</a>
+	   <dl>
+	    <dt><a href="">热点</a></dt>
+	    <dt><a href="">最新</a></dt>
+	   </dl>
+	  </div>
+	 </div>
+	 
+	 
+	 <div class="userbar">
+	  <p>当前方可身份:</p>
+	  <p>游客</p>
+	  <p>[<a href="">登录</a>|<a href="">加入</a>]</p>
+	 </div>
+	 
+	</div>
+		
+</div>
+
+<div class="banner">
+ <div class="banner_content">
+  <a href="" class="logo" title="看看房"></a>
+  <div class="classify">
+	  
+  </div>
+  <div class="search">
+	  
+  </div>
+ </div>
+ 
 </div>
 
 	<div class="footer">

@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+.header{width:100%;height:30px;min-width:1024px;font-size:13px;line-height:30px;position:fixed;top:0px;background-color:#15A230;}
+.header .header_nav_menu{width:960px;height:30px;margin:0 auto;}
+.header .header_nav_menu a{text-decoration:none;color:#FFFFFF;}
+.header .header_nav_menu a:hover{color:#EEEEEE;}
+.header .header_nav_menu .channels{height:30px;position:relative;float:left;}
+.header .header_nav_menu .nav_item{height:30px;position:relative;float:left;margin:0px 5px;}
+.header .header_nav_menu .nav_item .nav_tag{position:relative;float:left;}
+.header .header_nav_menu .nav_item dl{width:100px;padding:5px 0px 0px 5px;position:absolute;left:0px;top:25px;z-index:9999;background:#FFFFFF;border:1px solid #15A230;display:none;}
+.header .header_nav_menu .nav_item dl dt a{font-size:12px;color:#15A230}
+.header .header_nav_menu .nav_item dl dt a:hover{font-weight:bold;color:#A00;}
+
+.header .header_nav_menu .userbar{height:30px;position:relative;float:right;}
+.header .header_nav_menu .userbar p{height:30px;position:relative;float:left;font-size:13px;line-height:30px;color:#EEEEEE;}
+.header .header_nav_menu .userbar a{font-size:14px;}
+
+.banner{width:100%;margin:0px 0px 20px 0px;background-color:#EEEEEE;border-bottom:#CCCCCC;min-width:1024px;position:relative;float:left;}
+.banner .banner_content{width:960px;margin:0px auto;}
+.banner .banner_content .logo{width:160px;height:48px;position:relative;float:left;background:url('') no-repeat;border-right:2px solid #DDDDDD;padding-right:4px;}
